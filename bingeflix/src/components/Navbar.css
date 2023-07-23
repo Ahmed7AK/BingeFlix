@@ -1,0 +1,29 @@
+.navbar-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    background: linear-gradient(rgba(212, 159, 57, 0.11), rgba(30, 30, 30, 0.11)); /* Got these values from figma I just changed the transparency */
+}
+.logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 2vw;
+}
+.logo {
+    width: 13vw;
+}
+.navbar-ops {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 5vw;
+    position: absolute;
+    right: 25vw;
+}
+.navbar-op {
+    font-size: 20px;
+    color: var(--yellow);
+}
