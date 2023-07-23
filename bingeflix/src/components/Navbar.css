@@ -26,4 +26,8 @@
 .navbar-op {
     font-size: 20px;
     color: var(--yellow);
+    transition: 0.3s;
+}
+.navbar-op:hover {
+    color: var(--purple);
 }
