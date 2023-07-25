@@ -1,0 +1,56 @@
+.top-picks {
+    padding: 50px;
+}
+.tp-title-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.tp-title {
+    position: absolute;
+    left: 0;
+    font-size: 24px;
+    margin-left: 3vw;
+    border-left: 6px solid var(--purple);
+    padding: 10px;
+    color: var(--white);
+}
+.tp-more {
+    position: absolute;
+    right: 0;
+    margin-right: 2vw;
+    margin-top: 2vw;
+    background-color: transparent;
+    font-size: 16px;
+    color: var(--gold);
+    text-decoration: underline;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    transition: 0.3s;
+}
+.tp-more:hover {
+    cursor: pointer;
+    color: var(--purple);
+}
+.tp-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    flex-direction: column;
+    padding: 5vw;
+}
+.tp-row-1, .tp-row-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+    align-items: center;
+}
+.tp-movie {
+    border: 2px solid white;
+    width: 192px;
+    height: 232px;
+}
