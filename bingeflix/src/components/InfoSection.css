@@ -1,0 +1,30 @@
+.info-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5vw;
+    gap: 5vh;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 65vw;
+}
+.info-text {
+    height: 30vh;
+    width: 42vw;
+}
+.info-title {
+    font-size: 30px;
+    padding: 10px;
+}
+.info-p {
+    font-size: 20px;
+    padding: 10px;
+}
+.info img {
+    width: 30vh;
+}

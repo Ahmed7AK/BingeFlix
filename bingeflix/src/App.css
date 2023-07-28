@@ -1,3 +1,18 @@
 body {
     background-color: var(--darkgray);
 }
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.24);
+    height: 10vh;
+    padding: 10px;
+}
+.footer-text {
+    font-size: 20px;
+    transition: 0.3s;
+}
+.footer-text:hover {
+    color: var(--gold);
+}

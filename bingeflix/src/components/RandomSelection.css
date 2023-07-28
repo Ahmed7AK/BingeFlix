@@ -1,0 +1,48 @@
+.rs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.rs-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 100px 50px 100px;
+    border: 3px solid var(--yellow);
+    border-radius: 10px;
+}
+.rs-title {
+    font-size: 36px;
+    color: var(--yellow);
+}
+.rs-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30vw;
+    height: 30vh;
+}
+.movie-button, .series-button {
+    border: 0;
+    box-shadow: none;
+    color: white;
+    font-size: 20px;
+    padding: 1vw 3vw 1vw 3vw;
+    border-radius: 10px;
+}
+.movie-button {
+    background-color: var(--purple);
+    transition: 0.3s;
+}
+.movie-button:hover {
+    background-color: rgb(141, 78, 222);
+}
+.series-button {
+    background-color: var(--gold);
+    transition: 0.3s;
+}
+.series-button:hover {
+    background-color: rgb(239, 188, 92);
+}
