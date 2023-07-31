@@ -1,0 +1,126 @@
+.rm-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+.rm {
+    display: grid;
+    grid-template-columns: 25vw 45vw;
+    width: 70vw;
+    height: 70vh;
+    border: 2px solid var(--yellow);
+    border-radius: 10px;
+}
+.rm-poster-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.rm-poster {
+    height: 60vh;
+    width: 37vw;
+}
+.rm-info-div {
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    
+}
+.rm-top {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 40vw;
+    height: 15vh;
+}
+.rm-title-div {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 32vw;
+}
+.rm-title {
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--gold);
+
+}
+.rm-type-div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.rm-dot {
+    width: 3px;
+    height: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 50%;
+    background-color: var(--white);
+}
+.rm-imdb-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 8vw;
+}
+.rm-imdb-title {
+    font-weight: bold;
+    font-size: 13px;
+}
+.rm-rating-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.rm-star {
+    width: 2.5vw;
+}
+.rm-rating {
+    font-size: 26px;
+}
+.rm-actors-div {
+    width: 40vw;
+    height: 30vh;
+}
+.rm-actors {
+    text-align: left;
+}
+.rm-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 40vw;
+    height: 10vh;
+}
+.rm-random, .rm-mylist {
+    border: 0;
+    box-shadow: none;
+    color: white;
+    font-size: 16px;
+    padding: 1vw 2vw 1vw 2vw;
+    border-radius: 10px;
+    width: 14vw;
+}
+.rm-random {
+    background-color: var(--purple);
+    transition: 0.3s;
+}
+.rm-random:hover {
+    background-color: rgb(141, 78, 222);
+}
+.rm-mylist {
+    background-color: var(--gold);
+    transition: 0.3s;
+}
+.rm-mylist:hover {
+    background-color: rgb(239, 188, 92);
+}
